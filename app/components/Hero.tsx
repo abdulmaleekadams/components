@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="w-full h-full absolute bg-black/60 z-20" />
       <div className="relative z-50 flex flex-col  w-full h-full">
         <Header />
-        
+
         <div className="mt-40 px-24">
           <h1 className="text-white text-6xl animate-pulse">
             <p className="font-semibold">Explore Igbo Heritage</p>
@@ -26,8 +26,8 @@ const Hero = () => {
             amazing collection of vast archeological materials. We help you
             experience the movement and illumination of our history.
           </p>
+          <HeroInput />
         </div>
-        <HeroInput />
       </div>
     </div>
   );
